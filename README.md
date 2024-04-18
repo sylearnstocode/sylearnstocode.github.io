@@ -1,2 +1,1 @@
-# sylearnstocode.github.io
- capstoneproject
+# This is my capstone project
