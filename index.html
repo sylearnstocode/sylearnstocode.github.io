@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <script defer type="text/javascript" src="./script.js"></script>
+  </head>
+
+  <body>
+    <div class="header">
+      <img src="./assets/UBS_Logo.png" alt="UBS_Logo" width="150" />
+      <h1>Investment Profile</h1>
+    </div>
+
+    <h3>UBS Group AG</h3>
+    <h3>Stock Information</h3>
+    <table>
+      <tr>
+        <td class="table-header">Symbol:</td>
+        <td>UBS</td>
+      </tr>
+      <tr>
+        <td class="table-header">Exchange:</td>
+        <td>NYSE</td>
+      </tr>
+      <td class="table-header">Currency:</td>
+      <td>USD</td>
+      <tr>
+        <td class="table-header">Market Cap:</td>
+        <td class="marketcapdata"></td>
+      </tr>
+      <tr>
+        <td class="table-header">52 Week High:</td>
+        <td class="weekhighdata"></td>
+      </tr>
+      <tr>
+        <td class="table-header">52 Week Low:</td>
+        <td class="weeklowdata"></td>
+      </tr>
+    </table>
+    <br />
+
+    <div class="buttons-container">
+      <button type="button" id="companyDescription">Company Description</button>
+      <button type="button" id="corporateGovernance">
+        Corporate Governance
+      </button>
+      <button type="button" id="keyExecutives">Key Executives</button>
+    </div>
+
+    <div id="description" style="display: none">
+      <br />
+      UBS Group AG is a multinational investment bank and financial services
+      company founded and based in Switzerland. Headquartered in Zürich, it
+      maintains a presence in all major financial centres as the largest Swiss
+      banking institution and the largest private bank in the world.
+    </div>
+
+    <div id="governance" style="display: none">
+      <br />
+      A robust governance framework and strong principles allow us to lead our
+      business with integrity and purpose: 
+      <ul>
+        <a href=https://www.ubs.com/global/en/our-firm/governance.html#toplevelgrid_copy_co_1680610619008><li>Our leadership</li></a>
+        <a href=https://www.ubs.com/global/en/our-firm/governance.html#toplevelgrid_copy_co_1680610619008><li>Organisation & Structure</li></a>
+        <a href=https://www.ubs.com/global/en/our-firm/governance.html#toplevelgrid_copy_co_1680610619008><li>Financial information & events</li></a>
+      </ul>
+    </div>
+
+    <div id="executives" style="display: none">
+      <ul>
+        <li>Sergio P. Ermotti (Group Chief Executive Officer)</li>
+        <li>Edmund Koh (President UBS Asia Pacific)</li>
+        <li>Kirt Gardner (Group Chief Financial Officer)</li>
+        <li>Sabine Keller-Busse (Group Chief Operating Officer)</li>
+        <li>Markus Ronner (Group Chief Compliance and Governance Officer)</li>
+      </ul>
+    </div>
+  </body>
+
+  <footer>
+    <p>
+      Reimagining the power of investing<br />Connecting people for a better
+      world
+    </p>
+  </footer>
+</html>
